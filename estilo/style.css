@@ -1,0 +1,134 @@
+@charset "UTF-8";
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(80, 10, 80);
+}
+main{
+    position: absolute;
+    border-radius: 10px;
+    height: auto;
+    left: 50%;
+    top:50%;
+    width: 80vw;
+    background-image: url(../img/pexels-dinnow-9444476.jpg);
+    background-size: cover;
+    background-position: center center;
+    transform: translate(-50%,-50%);
+
+
+}
+section{
+    position: relative;
+    background-color: white;
+    margin-top: 200px;
+    text-align: center;
+    padding: 5px;
+}
+section h1{
+    margin-top: 5px;
+    text-align: center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    color: rgb(80, 10, 80);
+}
+section p{
+    padding-bottom: 5px;
+    text-align: center;
+    color: #0b6464fb;
+}
+label{
+    color: white;
+    background-color: rgb(80, 10, 80);
+    position: relative;
+    width: 30px;
+    display: inline;
+    border-radius: 10px;
+}
+
+.material-symbols-outlined{
+    color: white;
+    background-color: rgb(80, 10, 80);
+    position: relative;
+    width: 30px;
+    display: inline;
+    border-radius: 10px;
+}
+.input{
+    background-color: rgb(80, 10, 80);
+    border: 2px solid black;
+    width: auto;
+    border-radius: 10px;
+    padding-bottom: 6px;
+}
+.input input{
+    margin-bottom: -2px;
+    position: relative;
+    padding-left: 12px;
+    padding-top: 7px;
+    background-color: rgba(0, 255, 255, 0.712);
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 48vw;
+    color: black;
+    
+}
+.input input:focus{
+    background-color: white;
+    
+}
+.input1{
+    margin-top: -13px; 
+    background-color: rgb(80, 10, 80);
+    width:auto;
+    border-radius: 10px;
+    padding-bottom: 6px;
+    border: 2px solid black;
+} 
+.input1 input{
+    margin-bottom: -2px;
+    width: 48vw;
+    padding-top: 7px;
+    padding-left: 15px;
+    background-color: rgba(0, 255, 255, 0.712);
+    border-radius: 10px;
+    border: 2px solid black;
+    
+} 
+.input1 input:focus{
+    background-color: white;  
+}
+#submit{
+    margin-top: 5px; 
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    background-color:#17B9CD;
+    color: white;
+    border: 2px solid black;
+}
+#submit:hover{
+   background-color: #238592;
+}
+a{
+    margin-top: 5px; 
+    text-decoration: none;
+    font-size: 13px;
+    width: auto;
+    display: block;
+    border-radius: 10px;
+    padding-bottom: 14px;
+    color: rgb(16, 134, 134);
+    border: 2px solid rgb(16, 134, 134); 
+}
+a:hover{
+    background-color: #238592;
+    color: white;
+}
+
+
